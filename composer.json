@@ -1,6 +1,6 @@
 {
-	"name": "nette/reflection",
-	"description": "Nette Reflection: docblock annotations parser and common reflection classes",
+	"name": "vendor-patch/nette.reflection",
+	"description": "This fork of [nette/reflection](https://nette.org) was initiated to update requirements and dependencies of the abandoned package to implement it further.\nPlease get it from nette instead of using this!\nNette Reflection: docblock annotations parser and common reflection classes",
 	"keywords": ["nette", "annotation", "reflection"],
 	"homepage": "https://nette.org",
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
@@ -12,18 +12,22 @@
 		{
 			"name": "Nette Community",
 			"homepage": "https://nette.org/contributors"
+		},
+		{
+			"name": "Frdlweb",
+			"homepage": "https://frdl.de"
 		}
 	],
 	"require": {
-		"php": ">=5.6.0",
+		"php": ">=7.2.0 || >=8.0",
 		"ext-tokenizer": "*",
-		"nette/caching": "^2.2 || ^3.0",
-		"nette/utils": "^2.4 || ^3.0"
+		"nette/caching": "*",
+		"nette/utils": "*"
 	},
 	"require-dev": {
-		"nette/di": "^2.4 || ^3.0",
-		"nette/tester": "^2.0",
-		"tracy/tracy": "^2.4"
+		"nette/di": "*",
+		"nette/tester": "*",
+		"tracy/tracy": "*"
 	},
 	"conflict": {
 		"nette/nette": "<2.2"
@@ -34,7 +38,7 @@
 	"minimum-stability": "dev",
 	"extra": {
 		"branch-alias": {
-			"dev-master": "2.4-dev"
+			"dev-master": "dev-patch"
 		}
 	}
 }
