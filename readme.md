@@ -1,3 +1,8 @@
+vendor-patch/nette.reflection <- from nette/reflections
+###################
+This fork of [nette/reflection](https://nette.org) was initiated to update requirements and dependencies of the abandoned package to implement it further.\nPlease get it from nette instead of using this!\nNette Reflection: docblock annotations parser and common reflection classes
+
+
 Nette PHP Reflection
 ====================
 
